@@ -1,0 +1,3 @@
+target 'StackBacktraceDemo' do
+pod 'MTHawkeye', :subspecs => ['StackBacktrace'], :configurations => 'Debug'
+end

@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C45B37BA07A2619B0B234A76EF22D5 /* MTHStackFrameSymbolicsRemote.h in Headers */ = {isa = PBXBuildFile; fileRef = D32C55BA48789B649BE2C4DF1C8EB492 /* MTHStackFrameSymbolicsRemote.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		051933F0C2210F8B7B7CD69E254CC186 /* mtaf_atomic_oper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4968E90DB6A49D141511B9E87D3E02E1 /* mtaf_atomic_oper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		054FE3C378303E50A2D127C8B8B607FA /* mtaf_mmap_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89C241E67A0F51B682F33F05BB97D798 /* mtaf_mmap_file.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0667240EC4E2C0EA86D5BB71C23DF3A6 /* mtaf_autobuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B538EE46E6BF9C2F3DCEB589BC8D9C /* mtaf_autobuffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0725BE6966FE527B9FB3C9AB65ED9FB3 /* MTHawkeyeUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E92C4AD17D9E0367EF9D564BC22662FF /* MTHawkeyeUtility.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1228BAD90BFA832B4FE59FB41E3338AA /* MTHawkeyeDyldImagesUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF8A59CE985EAB88ECEE027BF564678 /* MTHawkeyeDyldImagesUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		159111807E389C2B09FC941873DE7B22 /* MTHawkeyePropertyBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 181659FDD1A7E9147F3450538E0A937E /* MTHawkeyePropertyBox.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F9798710E6AB90B082FA6DFEC2D1239 /* mth_stack_backtrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D6460582CF701F9C387BE7D9EBA460 /* mth_stack_backtrace.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		361633B2E19AE287D73A92AA405DE80E /* mtaf_ptrbuffer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0808137681BA38D4562EEEDBC1D64D6E /* mtaf_ptrbuffer.cc */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		36327E5CB0D2AAAD1DFCA613347899E6 /* __mtaf_assert.c in Sources */ = {isa = PBXBuildFile; fileRef = A7EE34192DA66E31AAD3B3CC4FA4FBB0 /* __mtaf_assert.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		38EC5672E003360EC1EF4530A68CB682 /* MTHawkeyePropertyBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 220EBBDCE3B4BA8DB88781B2E778C50F /* MTHawkeyePropertyBox.m */; };
+		41EDC9F2A323C7DFC79B5C7072DDD37D /* MTAppenderFile.h in Headers */ = {isa = PBXBuildFile; fileRef = E0D802E16611CE9F5A188C2E7E2B389B /* MTAppenderFile.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4357E573FB1D5CBE968DD45B9DC94DAB /* MTHawkeyeLFUCache.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F43D18ED9434E1440571FC8F2976CC73 /* MTHawkeyeLFUCache.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		46C5B4D1C1EB683DE824593F3E0EBCE0 /* mtaf_platform_comm.mm in Sources */ = {isa = PBXBuildFile; fileRef = A9A23306F08512A4E9AC3620419C831F /* mtaf_platform_comm.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4AFB4BDAC36341FE2CE649D0E1F49A3E /* MTHStackFrameSymbolicsRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 22070A7364663AF22F8C5363BD1775BC /* MTHStackFrameSymbolicsRemote.m */; };
+		4BD43623A4E817C70D0B908C48F7EEA7 /* MTHawkeyeSignPosts.h in Headers */ = {isa = PBXBuildFile; fileRef = 87637626119334616BCD9DC9C9DF247F /* MTHawkeyeSignPosts.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5828FD369BDFCDBD88C7DAC92DC2FAD1 /* MTHawkeye-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 323CB2D7421AAB24719DB02E4DA71221 /* MTHawkeye-dummy.m */; };
+		5E8D962A3123BBFF502AC3BFCFA0331C /* mtaf_appender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 191DA2B45D630828DBEBDFDFB1F03A49 /* mtaf_appender.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		627131D0636474000EF1262A8B539CE2 /* MTHawkeyeWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5C57F12EB58CEEB74AC111D63177F9 /* MTHawkeyeWeakProxy.m */; };
+		66C71F9E07725557979DB44FAB207440 /* mtaf_runnable.h in Headers */ = {isa = PBXBuildFile; fileRef = CF8FBA44A07A2AF2DC9E4B6CD0BA3D7D /* mtaf_runnable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6995F2B99ECB4E5997F24F97ABEAD296 /* mtaf_log_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EC9053C1E5EB07505F7A9D04E8D1087 /* mtaf_log_buffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6CAEC3D24ADC793EF53C141BBB16E0D5 /* mtaf_lock.h in Headers */ = {isa = PBXBuildFile; fileRef = A001D6AC20C482D61B948258F01ACC3B /* mtaf_lock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70BAE5880E1E4E472B3A52F89F4D47C7 /* mth_thread_utils.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9D59AEDFD96914AAB44AFEFC926F2A1 /* mth_thread_utils.mm */; };
+		76DBF5972D75FE18C37ED907BDFD955A /* MTHawkeyeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2E00B6142D5FE3895F72008B3598B1 /* MTHawkeyeUtility.m */; };
+		76FA0A7C12734B4C0FEF6F0CE4DC44BA /* __mtaf_assert.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F206F3D1E7E9D731CD7A620112F748 /* __mtaf_assert.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7814CD6CBCAFDFFC0830591BF2B973D7 /* mtaf_base.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A1E0AF4C48135C19325E12BB6A3FC01 /* mtaf_base.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		804ACFFBF747EE032103C563D51FA252 /* mtaf_time_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 84D6E720095F6C8028AD471E11BEED9A /* mtaf_time_utils.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84FC1D0C63F774E161FBC64E2B5B47DB /* mtaf_spinlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 503937BBEED6BB5B172C0AEB6CC6F127 /* mtaf_spinlock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88C90948B07AE102FC016EF23CE3842E /* MTH_RSSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B65342CD36DA93A7035EAA1A5202669 /* MTH_RSSwizzle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8DF8C6DC41E1D8CFE85A9AB580D2540F /* MTHawkeyeHooking.h in Headers */ = {isa = PBXBuildFile; fileRef = A04E72D016E1437ED1B2908B4B66C945 /* MTHawkeyeHooking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E553AAB85C32185FB995B312E9578CE /* mtaf_thread.h in Headers */ = {isa = PBXBuildFile; fileRef = B46433785CA538F86133714EB2570BBB /* mtaf_thread.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E6F19F84A6217C031ECBBEE6185B0AF /* MTHawkeyeLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 546252B197C0949AA7820380E1C52AC5 /* MTHawkeyeLogMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93AA2E7E66425F423E705F136EF5FE5B /* mth_stack_backtrace.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8362817B3C8B553CFFFEFEA640FC04A3 /* mth_stack_backtrace.mm */; };
+		9597FBD0402CF024EA311C9BA5CF2A29 /* MTHawkeyeDyldImagesUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3B4E19BCD92DB68F9CC90796326E1330 /* MTHawkeyeDyldImagesUtils.mm */; };
+		A5CF3C7BA53B443F00D0969B44CE496E /* mtaf_mmap_file.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B3A8067E846A6B020F71253C859289 /* mtaf_mmap_file.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A759C1F8ED595C6A445EA0AFA5CB9619 /* MTAppenderFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 088EECF6C4E7B6D26A13B42C938E09A3 /* MTAppenderFile.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8DDEF95BD35B545A26DD926966FC953 /* MTHawkeyeInnerLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = FDDBAD9F0550022086499D0E1C89E23C /* MTHawkeyeInnerLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA158DEC6780EA79D2C246C404E4E5AC /* MTAppenderFile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD030C154E4E794EA0CF4437499F472 /* MTAppenderFile-dummy.m */; };
+		AF3270EAC1CF12CFC79917B6D2227DE8 /* MTHawkeyeWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA16F0A7B65751462C8127F5A350811 /* MTHawkeyeWeakProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B29A9B8C4EB75089C9D44B711BB664DD /* mtaf_formatter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D63A796176CC8134F225E072D023FB2 /* mtaf_formatter.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B4B73051C352EEBC2AFA664A7DFF53FD /* MTHStackFrameSymbolics.h in Headers */ = {isa = PBXBuildFile; fileRef = 17914C99A9BC2A48F32C028E849C890B /* MTHStackFrameSymbolics.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA1E513B3A4A65F2C7E1F5ADA6FE4474 /* Pods-StackBacktraceDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC44B5736A7BA54AFEC834DEF029214 /* Pods-StackBacktraceDemo-dummy.m */; };
+		BA59ADCE90DFEC7658FE086AF827BDFF /* MTHawkeyeEmptyHeaderForCPP.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8999F442E68D5ED50912254AF5B8A234 /* MTHawkeyeEmptyHeaderForCPP.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		C73177792B669E2BD986907285024FC2 /* MTHawkeyeLFUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66CBED08E4AFD5E0CA51F38ED90DFA55 /* MTHawkeyeLFUCache.cpp */; };
+		CBEC3B408BAF19443D45BE4F2503778B /* mtaf_compiler_util.h in Headers */ = {isa = PBXBuildFile; fileRef = E680BE1A0DA2C2C2CF1BD2C8ADEC94F4 /* mtaf_compiler_util.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D271E939B2F734EE659FC05CA4CD9022 /* mtaf_log_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C3D4F9B4D440A5CFE6DB2CB616AFC50 /* mtaf_log_buffer.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D94F007AAE70937C372533497B52B8A0 /* mtaf_ptrbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B88467CBB700AF611E9A7D22FE38B9 /* mtaf_ptrbuffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DBB585C436D45BDAEE1D264CAA9B2033 /* MTHStackFrameSymbolics.mm in Sources */ = {isa = PBXBuildFile; fileRef = F12AE8C3FAD5BA81C3B25477167A705A /* MTHStackFrameSymbolics.mm */; };
+		E1EC84A30700480CC02EBA7B7E94F29C /* mtaf_appender.h in Headers */ = {isa = PBXBuildFile; fileRef = CB180075B597545435107494AD84AF40 /* mtaf_appender.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E24C62C08B452C5839FB0CB29D21AF3F /* mtaf_condition.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D69A5D46257F0A796D40887C08A146 /* mtaf_condition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E8636CCEB8B357EBE02EB177A9714F26 /* mtaf_autobuffer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0D419EDD0230AAF6B857CC925329C107 /* mtaf_autobuffer.cc */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E86B697436AED13ED5CA7B3500F6D917 /* mtaf_mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B43FA23F7265901E05CF0247B8859D6 /* mtaf_mutex.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E9E08D17A592BEBFCE53EF4ED0487709 /* mth_thread_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = E29CFD07847058C0A8D65A66A66B1E3A /* mth_thread_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB886FBB10BDEB7159FD2D2E2BDFF4EE /* MTHawkeyeHooking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7203E8FA4DE0A7BA1C691BA965101060 /* MTHawkeyeHooking.m */; };
+		EF49BE8E9106DF6C083E2BFA58D6B9F6 /* mtaf_time_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C617E341396CB6FA43075F49779F39 /* mtaf_time_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F372BBF780026766809B93BC8E8FBDCE /* MTHawkeyeInnerLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1BEFC6ABD9C9333E99B005B01F3436 /* MTHawkeyeInnerLogger.m */; };
+		F6C40BC4EE12F588F197A7D1A10730E5 /* MTH_RSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F666C0A16DDAD933BA1CA0108A46F7 /* MTH_RSSwizzle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		022DC57032DFE6C4CE8A37F85A504192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC234AE73A5D2E00C786B807F70263BA;
+			remoteInfo = MTAppenderFile;
+		};
+		BF804E0F3C5C52BB67273467718F534E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C95360A846116F890CA4CFDE43D9BB3;
+			remoteInfo = MTHawkeye;
+		};
+		EE8F17A5232C2527DBAF6A55E39DF3E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC234AE73A5D2E00C786B807F70263BA;
+			remoteInfo = MTAppenderFile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0808137681BA38D4562EEEDBC1D64D6E /* mtaf_ptrbuffer.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = mtaf_ptrbuffer.cc; path = comm/mtaf_ptrbuffer.cc; sourceTree = "<group>"; };
+		088EECF6C4E7B6D26A13B42C938E09A3 /* MTAppenderFile.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MTAppenderFile.mm; path = loglib/MTAppenderFile.mm; sourceTree = "<group>"; };
+		0B65342CD36DA93A7035EAA1A5202669 /* MTH_RSSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTH_RSSwizzle.h; path = MTHawkeye/Utils/MTH_RSSwizzle.h; sourceTree = "<group>"; };
+		0D419EDD0230AAF6B857CC925329C107 /* mtaf_autobuffer.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = mtaf_autobuffer.cc; path = comm/mtaf_autobuffer.cc; sourceTree = "<group>"; };
+		17914C99A9BC2A48F32C028E849C890B /* MTHStackFrameSymbolics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTHStackFrameSymbolics.h; path = MTHawkeye/StackBacktrace/MTHStackFrameSymbolics.h; sourceTree = "<group>"; };
+		181659FDD1A7E9147F3450538E0A937E /* MTHawkeyePropertyBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTHawkeyePropertyBox.h; path = MTHawkeye/Utils/MTHawkeyePropertyBox.h; sourceTree = "<group>"; };
+		191DA2B45D630828DBEBDFDFB1F03A49 /* mtaf_appender.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = mtaf_appender.cpp; path = loglib/mtaf_appender.cpp; sourceTree = "<group>"; };
+		1A2E00B6142D5FE3895F72008B3598B1 /* MTHawkeyeUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTHawkeyeUtility.m; path = MTHawkeye/Utils/MTHawkeyeUtility.m; sourceTree = "<group>"; };
+		1CD1F1562329D326230786E0E8789A4B /* Pods-StackBacktraceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StackBacktraceDemo.release.xcconfig"; sourceTree = "<group>"; };
+		22070A7364663AF22F8C5363BD1775BC /* MTHStackFrameSymbolicsRemote.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTHStackFrameSymbolicsRemote.m; path = MTHawkeye/StackBacktrace/MTHStackFrameSymbolicsRemote.m; sourceTree = "<group>"; };
+		220EBBDCE3B4BA8DB88781B2E778C50F /* MTHawkeyePropertyBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTHawkeyePropertyBox.m; path = MTHawkeye/Utils/MTHawkeyePropertyBox.m; sourceTree = "<group>"; };
+		28D69A5D46257F0A796D40887C08A146 /* mtaf_condition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_condition.h; path = comm/mtaf_condition.h; sourceTree = "<group>"; };
+		29DAA8CE7C58FF63F12235CA4A1A1032 /* MTAppenderFile-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTAppenderFile-prefix.pch"; sourceTree = "<group>"; };
+		2B43FA23F7265901E05CF0247B8859D6 /* mtaf_mutex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_mutex.h; path = comm/mtaf_mutex.h; sourceTree = "<group>"; };
+		2EC9053C1E5EB07505F7A9D04E8D1087 /* mtaf_log_buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_log_buffer.h; path = loglib/mtaf_log_buffer.h; sourceTree = "<group>"; };
+		323CB2D7421AAB24719DB02E4DA71221 /* MTHawkeye-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTHawkeye-dummy.m"; sourceTree = "<group>"; };
+		33B88467CBB700AF611E9A7D22FE38B9 /* mtaf_ptrbuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_ptrbuffer.h; path = comm/mtaf_ptrbuffer.h; sourceTree = "<group>"; };
+		3AC44B5736A7BA54AFEC834DEF029214 /* Pods-StackBacktraceDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StackBacktraceDemo-dummy.m"; sourceTree = "<group>"; };
+		3B4E19BCD92DB68F9CC90796326E1330 /* MTHawkeyeDyldImagesUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MTHawkeyeDyldImagesUtils.mm; path = MTHawkeye/Utils/MTHawkeyeDyldImagesUtils.mm; sourceTree = "<group>"; };
+		3C3D4F9B4D440A5CFE6DB2CB616AFC50 /* mtaf_log_buffer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = mtaf_log_buffer.cpp; path = loglib/mtaf_log_buffer.cpp; sourceTree = "<group>"; };
+		3EA16F0A7B65751462C8127F5A350811 /* MTHawkeyeWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTHawkeyeWeakProxy.h; path = MTHawkeye/Utils/MTHawkeyeWeakProxy.h; sourceTree = "<group>"; };
+		3F31E834EF3FD5096376215F5D75A2D5 /* MTHawkeye-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTHawkeye-prefix.pch"; sourceTree = "<group>"; };
+		44D6460582CF701F9C387BE7D9EBA460 /* mth_stack_backtrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mth_stack_backtrace.h; path = MTHawkeye/StackBacktrace/mth_stack_backtrace.h; sourceTree = "<group>"; };
+		48F666C0A16DDAD933BA1CA0108A46F7 /* MTH_RSSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTH_RSSwizzle.m; path = MTHawkeye/Utils/MTH_RSSwizzle.m; sourceTree = "<group>"; };
+		4968E90DB6A49D141511B9E87D3E02E1 /* mtaf_atomic_oper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_atomic_oper.h; path = comm/mtaf_atomic_oper.h; sourceTree = "<group>"; };
+		49A70DE03985927FF81CFE6187884313 /* Pods-StackBacktraceDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StackBacktraceDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		49C90589698C15BB279145C3640553EE /* Pods-StackBacktraceDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StackBacktraceDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E8AB1C0FF79DBDAC5D2D893711C0C31 /* MTHawkeye.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTHawkeye.xcconfig; sourceTree = "<group>"; };
+		503937BBEED6BB5B172C0AEB6CC6F127 /* mtaf_spinlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_spinlock.h; path = comm/mtaf_spinlock.h; sourceTree = "<group>"; };
+		546252B197C0949AA7820380E1C52AC5 /* MTHawkeyeLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTHawkeyeLogMacros.h; path = MTHawkeye/Utils/MTHawkeyeLogMacros.h; sourceTree = "<group>"; };
+		5A6721F91CF5F233253F7467EFEC4B84 /* MTAppenderFile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTAppenderFile.xcconfig; sourceTree = "<group>"; };
+		66CBED08E4AFD5E0CA51F38ED90DFA55 /* MTHawkeyeLFUCache.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = MTHawkeyeLFUCache.cpp; path = MTHawkeye/Utils/MTHawkeyeLFUCache.cpp; sourceTree = "<group>"; };
+		6D63A796176CC8134F225E072D023FB2 /* mtaf_formatter.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = mtaf_formatter.cpp; path = loglib/mtaf_formatter.cpp; sourceTree = "<group>"; };
+		7203E8FA4DE0A7BA1C691BA965101060 /* MTHawkeyeHooking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTHawkeyeHooking.m; path = MTHawkeye/Utils/MTHawkeyeHooking.m; sourceTree = "<group>"; };
+		7B1BEFC6ABD9C9333E99B005B01F3436 /* MTHawkeyeInnerLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTHawkeyeInnerLogger.m; path = MTHawkeye/Utils/MTHawkeyeInnerLogger.m; sourceTree = "<group>"; };
+		7CD030C154E4E794EA0CF4437499F472 /* MTAppenderFile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTAppenderFile-dummy.m"; sourceTree = "<group>"; };
+		801367CCDB48D2D099F78E8AFF3217BB /* libPods-StackBacktraceDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-StackBacktraceDemo.a"; path = "libPods-StackBacktraceDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8362817B3C8B553CFFFEFEA640FC04A3 /* mth_stack_backtrace.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = mth_stack_backtrace.mm; path = MTHawkeye/StackBacktrace/mth_stack_backtrace.mm; sourceTree = "<group>"; };
+		84B538EE46E6BF9C2F3DCEB589BC8D9C /* mtaf_autobuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_autobuffer.h; path = comm/mtaf_autobuffer.h; sourceTree = "<group>"; };
+		84D6E720095F6C8028AD471E11BEED9A /* mtaf_time_utils.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mtaf_time_utils.c; path = comm/mtaf_time_utils.c; sourceTree = "<group>"; };
+		86132087A246E5729A3080C4027B376E /* libMTAppenderFile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMTAppenderFile.a; path = libMTAppenderFile.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		87637626119334616BCD9DC9C9DF247F /* MTHawkeyeSignPosts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTHawkeyeSignPosts.h; path = MTHawkeye/Utils/MTHawkeyeSignPosts.h; sourceTree = "<group>"; };
+		8999F442E68D5ED50912254AF5B8A234 /* MTHawkeyeEmptyHeaderForCPP.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = MTHawkeyeEmptyHeaderForCPP.hpp; path = MTHawkeye/Utils/MTHawkeyeEmptyHeaderForCPP.hpp; sourceTree = "<group>"; };
+		89C241E67A0F51B682F33F05BB97D798 /* mtaf_mmap_file.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = mtaf_mmap_file.cpp; path = loglib/mtaf_mmap_file.cpp; sourceTree = "<group>"; };
+		8A1E0AF4C48135C19325E12BB6A3FC01 /* mtaf_base.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_base.h; path = loglib/mtaf_base.h; sourceTree = "<group>"; };
+		9AF8A59CE985EAB88ECEE027BF564678 /* MTHawkeyeDyldImagesUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTHawkeyeDyldImagesUtils.h; path = MTHawkeye/Utils/MTHawkeyeDyldImagesUtils.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A001D6AC20C482D61B948258F01ACC3B /* mtaf_lock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_lock.h; path = comm/mtaf_lock.h; sourceTree = "<group>"; };
+		A04E72D016E1437ED1B2908B4B66C945 /* MTHawkeyeHooking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTHawkeyeHooking.h; path = MTHawkeye/Utils/MTHawkeyeHooking.h; sourceTree = "<group>"; };
+		A2C617E341396CB6FA43075F49779F39 /* mtaf_time_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_time_utils.h; path = comm/mtaf_time_utils.h; sourceTree = "<group>"; };
+		A7EE34192DA66E31AAD3B3CC4FA4FBB0 /* __mtaf_assert.c */ = {isa = PBXFileReference; includeInIndex = 1; name = __mtaf_assert.c; path = comm/__mtaf_assert.c; sourceTree = "<group>"; };
+		A9A23306F08512A4E9AC3620419C831F /* mtaf_platform_comm.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = mtaf_platform_comm.mm; path = loglib/mtaf_platform_comm.mm; sourceTree = "<group>"; };
+		A9B3A8067E846A6B020F71253C859289 /* mtaf_mmap_file.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_mmap_file.h; path = loglib/mtaf_mmap_file.h; sourceTree = "<group>"; };
+		AC7C5C89F52EE7F85729AD1E4D3C8BBE /* libMTHawkeye.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMTHawkeye.a; path = libMTHawkeye.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46433785CA538F86133714EB2570BBB /* mtaf_thread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_thread.h; path = comm/mtaf_thread.h; sourceTree = "<group>"; };
+		CB180075B597545435107494AD84AF40 /* mtaf_appender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_appender.h; path = loglib/mtaf_appender.h; sourceTree = "<group>"; };
+		CF8FBA44A07A2AF2DC9E4B6CD0BA3D7D /* mtaf_runnable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_runnable.h; path = comm/mtaf_runnable.h; sourceTree = "<group>"; };
+		D32C55BA48789B649BE2C4DF1C8EB492 /* MTHStackFrameSymbolicsRemote.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTHStackFrameSymbolicsRemote.h; path = MTHawkeye/StackBacktrace/MTHStackFrameSymbolicsRemote.h; sourceTree = "<group>"; };
+		D9D59AEDFD96914AAB44AFEFC926F2A1 /* mth_thread_utils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = mth_thread_utils.mm; path = MTHawkeye/Utils/mth_thread_utils.mm; sourceTree = "<group>"; };
+		D9F206F3D1E7E9D731CD7A620112F748 /* __mtaf_assert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = __mtaf_assert.h; path = comm/__mtaf_assert.h; sourceTree = "<group>"; };
+		E0D802E16611CE9F5A188C2E7E2B389B /* MTAppenderFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTAppenderFile.h; path = loglib/MTAppenderFile.h; sourceTree = "<group>"; };
+		E29CFD07847058C0A8D65A66A66B1E3A /* mth_thread_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mth_thread_utils.h; path = MTHawkeye/Utils/mth_thread_utils.h; sourceTree = "<group>"; };
+		E680BE1A0DA2C2C2CF1BD2C8ADEC94F4 /* mtaf_compiler_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mtaf_compiler_util.h; path = comm/mtaf_compiler_util.h; sourceTree = "<group>"; };
+		E92C4AD17D9E0367EF9D564BC22662FF /* MTHawkeyeUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTHawkeyeUtility.h; path = MTHawkeye/Utils/MTHawkeyeUtility.h; sourceTree = "<group>"; };
+		F12AE8C3FAD5BA81C3B25477167A705A /* MTHStackFrameSymbolics.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MTHStackFrameSymbolics.mm; path = MTHawkeye/StackBacktrace/MTHStackFrameSymbolics.mm; sourceTree = "<group>"; };
+		F43D18ED9434E1440571FC8F2976CC73 /* MTHawkeyeLFUCache.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = MTHawkeyeLFUCache.hpp; path = MTHawkeye/Utils/MTHawkeyeLFUCache.hpp; sourceTree = "<group>"; };
+		F83A36D5BAA3378BF10E29BFB0DDB8FB /* Pods-StackBacktraceDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StackBacktraceDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD5C57F12EB58CEEB74AC111D63177F9 /* MTHawkeyeWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTHawkeyeWeakProxy.m; path = MTHawkeye/Utils/MTHawkeyeWeakProxy.m; sourceTree = "<group>"; };
+		FDDBAD9F0550022086499D0E1C89E23C /* MTHawkeyeInnerLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTHawkeyeInnerLogger.h; path = MTHawkeye/Utils/MTHawkeyeInnerLogger.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE279CB167659309FA4EF51518805B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05B260E79D3BDCCD84093645BD6E230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8DAE89CB1BD6B70ACAA90CA6E5DDB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045C0EA138E13234CF75D9049DFDBB61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC93BC6DB4C710384E2401E6C8CE3107 /* MTAppenderFile */,
+				ACEC1E741FF3D43D2160DF38670AA4DE /* MTHawkeye */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		196B205A772828159D6B1F4496AA5A7B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0B65342CD36DA93A7035EAA1A5202669 /* MTH_RSSwizzle.h */,
+				48F666C0A16DDAD933BA1CA0108A46F7 /* MTH_RSSwizzle.m */,
+				E29CFD07847058C0A8D65A66A66B1E3A /* mth_thread_utils.h */,
+				D9D59AEDFD96914AAB44AFEFC926F2A1 /* mth_thread_utils.mm */,
+				9AF8A59CE985EAB88ECEE027BF564678 /* MTHawkeyeDyldImagesUtils.h */,
+				3B4E19BCD92DB68F9CC90796326E1330 /* MTHawkeyeDyldImagesUtils.mm */,
+				A04E72D016E1437ED1B2908B4B66C945 /* MTHawkeyeHooking.h */,
+				7203E8FA4DE0A7BA1C691BA965101060 /* MTHawkeyeHooking.m */,
+				FDDBAD9F0550022086499D0E1C89E23C /* MTHawkeyeInnerLogger.h */,
+				7B1BEFC6ABD9C9333E99B005B01F3436 /* MTHawkeyeInnerLogger.m */,
+				546252B197C0949AA7820380E1C52AC5 /* MTHawkeyeLogMacros.h */,
+				181659FDD1A7E9147F3450538E0A937E /* MTHawkeyePropertyBox.h */,
+				220EBBDCE3B4BA8DB88781B2E778C50F /* MTHawkeyePropertyBox.m */,
+				87637626119334616BCD9DC9C9DF247F /* MTHawkeyeSignPosts.h */,
+				E92C4AD17D9E0367EF9D564BC22662FF /* MTHawkeyeUtility.h */,
+				1A2E00B6142D5FE3895F72008B3598B1 /* MTHawkeyeUtility.m */,
+				3EA16F0A7B65751462C8127F5A350811 /* MTHawkeyeWeakProxy.h */,
+				FD5C57F12EB58CEEB74AC111D63177F9 /* MTHawkeyeWeakProxy.m */,
+				AC19D97923070F022C87CE5B5936BE7F /* cpp */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		2032A4275E623F58C5ECB3A38C65E976 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C39DBED1EE5B0BE0FD35ECD8E036DDE9 /* Pods-StackBacktraceDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3DE8BEC794104C504E87435AFCBEF293 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E8AB1C0FF79DBDAC5D2D893711C0C31 /* MTHawkeye.xcconfig */,
+				323CB2D7421AAB24719DB02E4DA71221 /* MTHawkeye-dummy.m */,
+				3F31E834EF3FD5096376215F5D75A2D5 /* MTHawkeye-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MTHawkeye";
+			sourceTree = "<group>";
+		};
+		A0280EE18C39CA2F225164403D6BFB98 /* StackBacktrace */ = {
+			isa = PBXGroup;
+			children = (
+				44D6460582CF701F9C387BE7D9EBA460 /* mth_stack_backtrace.h */,
+				8362817B3C8B553CFFFEFEA640FC04A3 /* mth_stack_backtrace.mm */,
+				17914C99A9BC2A48F32C028E849C890B /* MTHStackFrameSymbolics.h */,
+				F12AE8C3FAD5BA81C3B25477167A705A /* MTHStackFrameSymbolics.mm */,
+				D32C55BA48789B649BE2C4DF1C8EB492 /* MTHStackFrameSymbolicsRemote.h */,
+				22070A7364663AF22F8C5363BD1775BC /* MTHStackFrameSymbolicsRemote.m */,
+			);
+			name = StackBacktrace;
+			sourceTree = "<group>";
+		};
+		AC19D97923070F022C87CE5B5936BE7F /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				8999F442E68D5ED50912254AF5B8A234 /* MTHawkeyeEmptyHeaderForCPP.hpp */,
+				66CBED08E4AFD5E0CA51F38ED90DFA55 /* MTHawkeyeLFUCache.cpp */,
+				F43D18ED9434E1440571FC8F2976CC73 /* MTHawkeyeLFUCache.hpp */,
+			);
+			name = cpp;
+			sourceTree = "<group>";
+		};
+		ACEC1E741FF3D43D2160DF38670AA4DE /* MTHawkeye */ = {
+			isa = PBXGroup;
+			children = (
+				A0280EE18C39CA2F225164403D6BFB98 /* StackBacktrace */,
+				3DE8BEC794104C504E87435AFCBEF293 /* Support Files */,
+				196B205A772828159D6B1F4496AA5A7B /* Utils */,
+			);
+			name = MTHawkeye;
+			path = MTHawkeye;
+			sourceTree = "<group>";
+		};
+		C39DBED1EE5B0BE0FD35ECD8E036DDE9 /* Pods-StackBacktraceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				49C90589698C15BB279145C3640553EE /* Pods-StackBacktraceDemo-acknowledgements.markdown */,
+				F83A36D5BAA3378BF10E29BFB0DDB8FB /* Pods-StackBacktraceDemo-acknowledgements.plist */,
+				3AC44B5736A7BA54AFEC834DEF029214 /* Pods-StackBacktraceDemo-dummy.m */,
+				49A70DE03985927FF81CFE6187884313 /* Pods-StackBacktraceDemo.debug.xcconfig */,
+				1CD1F1562329D326230786E0E8789A4B /* Pods-StackBacktraceDemo.release.xcconfig */,
+			);
+			name = "Pods-StackBacktraceDemo";
+			path = "Target Support Files/Pods-StackBacktraceDemo";
+			sourceTree = "<group>";
+		};
+		CBB8F3671C58EA9D6DB701EF5EE2AFB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86132087A246E5729A3080C4027B376E /* libMTAppenderFile.a */,
+				AC7C5C89F52EE7F85729AD1E4D3C8BBE /* libMTHawkeye.a */,
+				801367CCDB48D2D099F78E8AFF3217BB /* libPods-StackBacktraceDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC93BC6DB4C710384E2401E6C8CE3107 /* MTAppenderFile */ = {
+			isa = PBXGroup;
+			children = (
+				A7EE34192DA66E31AAD3B3CC4FA4FBB0 /* __mtaf_assert.c */,
+				D9F206F3D1E7E9D731CD7A620112F748 /* __mtaf_assert.h */,
+				191DA2B45D630828DBEBDFDFB1F03A49 /* mtaf_appender.cpp */,
+				CB180075B597545435107494AD84AF40 /* mtaf_appender.h */,
+				4968E90DB6A49D141511B9E87D3E02E1 /* mtaf_atomic_oper.h */,
+				0D419EDD0230AAF6B857CC925329C107 /* mtaf_autobuffer.cc */,
+				84B538EE46E6BF9C2F3DCEB589BC8D9C /* mtaf_autobuffer.h */,
+				8A1E0AF4C48135C19325E12BB6A3FC01 /* mtaf_base.h */,
+				E680BE1A0DA2C2C2CF1BD2C8ADEC94F4 /* mtaf_compiler_util.h */,
+				28D69A5D46257F0A796D40887C08A146 /* mtaf_condition.h */,
+				6D63A796176CC8134F225E072D023FB2 /* mtaf_formatter.cpp */,
+				A001D6AC20C482D61B948258F01ACC3B /* mtaf_lock.h */,
+				3C3D4F9B4D440A5CFE6DB2CB616AFC50 /* mtaf_log_buffer.cpp */,
+				2EC9053C1E5EB07505F7A9D04E8D1087 /* mtaf_log_buffer.h */,
+				89C241E67A0F51B682F33F05BB97D798 /* mtaf_mmap_file.cpp */,
+				A9B3A8067E846A6B020F71253C859289 /* mtaf_mmap_file.h */,
+				2B43FA23F7265901E05CF0247B8859D6 /* mtaf_mutex.h */,
+				A9A23306F08512A4E9AC3620419C831F /* mtaf_platform_comm.mm */,
+				0808137681BA38D4562EEEDBC1D64D6E /* mtaf_ptrbuffer.cc */,
+				33B88467CBB700AF611E9A7D22FE38B9 /* mtaf_ptrbuffer.h */,
+				CF8FBA44A07A2AF2DC9E4B6CD0BA3D7D /* mtaf_runnable.h */,
+				503937BBEED6BB5B172C0AEB6CC6F127 /* mtaf_spinlock.h */,
+				B46433785CA538F86133714EB2570BBB /* mtaf_thread.h */,
+				84D6E720095F6C8028AD471E11BEED9A /* mtaf_time_utils.c */,
+				A2C617E341396CB6FA43075F49779F39 /* mtaf_time_utils.h */,
+				E0D802E16611CE9F5A188C2E7E2B389B /* MTAppenderFile.h */,
+				088EECF6C4E7B6D26A13B42C938E09A3 /* MTAppenderFile.mm */,
+				DF96309D3A998FE587BBF1D71D63DB22 /* Support Files */,
+			);
+			name = MTAppenderFile;
+			path = MTAppenderFile;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				045C0EA138E13234CF75D9049DFDBB61 /* Pods */,
+				CBB8F3671C58EA9D6DB701EF5EE2AFB1 /* Products */,
+				2032A4275E623F58C5ECB3A38C65E976 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF96309D3A998FE587BBF1D71D63DB22 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A6721F91CF5F233253F7467EFEC4B84 /* MTAppenderFile.xcconfig */,
+				7CD030C154E4E794EA0CF4437499F472 /* MTAppenderFile-dummy.m */,
+				29DAA8CE7C58FF63F12235CA4A1A1032 /* MTAppenderFile-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MTAppenderFile";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FFDD6075FCE37879023B9C9560F839A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567357AB3EA0847D688D08B1F9999ED6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C90948B07AE102FC016EF23CE3842E /* MTH_RSSwizzle.h in Headers */,
+				2F9798710E6AB90B082FA6DFEC2D1239 /* mth_stack_backtrace.h in Headers */,
+				E9E08D17A592BEBFCE53EF4ED0487709 /* mth_thread_utils.h in Headers */,
+				1228BAD90BFA832B4FE59FB41E3338AA /* MTHawkeyeDyldImagesUtils.h in Headers */,
+				BA59ADCE90DFEC7658FE086AF827BDFF /* MTHawkeyeEmptyHeaderForCPP.hpp in Headers */,
+				8DF8C6DC41E1D8CFE85A9AB580D2540F /* MTHawkeyeHooking.h in Headers */,
+				A8DDEF95BD35B545A26DD926966FC953 /* MTHawkeyeInnerLogger.h in Headers */,
+				4357E573FB1D5CBE968DD45B9DC94DAB /* MTHawkeyeLFUCache.hpp in Headers */,
+				8E6F19F84A6217C031ECBBEE6185B0AF /* MTHawkeyeLogMacros.h in Headers */,
+				159111807E389C2B09FC941873DE7B22 /* MTHawkeyePropertyBox.h in Headers */,
+				4BD43623A4E817C70D0B908C48F7EEA7 /* MTHawkeyeSignPosts.h in Headers */,
+				0725BE6966FE527B9FB3C9AB65ED9FB3 /* MTHawkeyeUtility.h in Headers */,
+				AF3270EAC1CF12CFC79917B6D2227DE8 /* MTHawkeyeWeakProxy.h in Headers */,
+				B4B73051C352EEBC2AFA664A7DFF53FD /* MTHStackFrameSymbolics.h in Headers */,
+				00C45B37BA07A2619B0B234A76EF22D5 /* MTHStackFrameSymbolicsRemote.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4950862FC6B957AB1618C6652DC2036 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FA0A7C12734B4C0FEF6F0CE4DC44BA /* __mtaf_assert.h in Headers */,
+				E1EC84A30700480CC02EBA7B7E94F29C /* mtaf_appender.h in Headers */,
+				051933F0C2210F8B7B7CD69E254CC186 /* mtaf_atomic_oper.h in Headers */,
+				0667240EC4E2C0EA86D5BB71C23DF3A6 /* mtaf_autobuffer.h in Headers */,
+				7814CD6CBCAFDFFC0830591BF2B973D7 /* mtaf_base.h in Headers */,
+				CBEC3B408BAF19443D45BE4F2503778B /* mtaf_compiler_util.h in Headers */,
+				E24C62C08B452C5839FB0CB29D21AF3F /* mtaf_condition.h in Headers */,
+				6CAEC3D24ADC793EF53C141BBB16E0D5 /* mtaf_lock.h in Headers */,
+				6995F2B99ECB4E5997F24F97ABEAD296 /* mtaf_log_buffer.h in Headers */,
+				A5CF3C7BA53B443F00D0969B44CE496E /* mtaf_mmap_file.h in Headers */,
+				E86B697436AED13ED5CA7B3500F6D917 /* mtaf_mutex.h in Headers */,
+				D94F007AAE70937C372533497B52B8A0 /* mtaf_ptrbuffer.h in Headers */,
+				66C71F9E07725557979DB44FAB207440 /* mtaf_runnable.h in Headers */,
+				84FC1D0C63F774E161FBC64E2B5B47DB /* mtaf_spinlock.h in Headers */,
+				8E553AAB85C32185FB995B312E9578CE /* mtaf_thread.h in Headers */,
+				EF49BE8E9106DF6C083E2BFA58D6B9F6 /* mtaf_time_utils.h in Headers */,
+				41EDC9F2A323C7DFC79B5C7072DDD37D /* MTAppenderFile.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C95360A846116F890CA4CFDE43D9BB3 /* MTHawkeye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9167B3F0F92A3522BE17E895A6FD0946 /* Build configuration list for PBXNativeTarget "MTHawkeye" */;
+			buildPhases = (
+				567357AB3EA0847D688D08B1F9999ED6 /* Headers */,
+				A2345D7CD2422E1293B3D14BDFF76725 /* Sources */,
+				C8DAE89CB1BD6B70ACAA90CA6E5DDB52 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C12C080C2542C0787C2B279B1ECA833C /* PBXTargetDependency */,
+			);
+			name = MTHawkeye;
+			productName = MTHawkeye;
+			productReference = AC7C5C89F52EE7F85729AD1E4D3C8BBE /* libMTHawkeye.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6825B31AE4D07B5DF9366B751577C5F7 /* Pods-StackBacktraceDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3672FCB86806A578EA01C98A0FF34F0E /* Build configuration list for PBXNativeTarget "Pods-StackBacktraceDemo" */;
+			buildPhases = (
+				0FFDD6075FCE37879023B9C9560F839A /* Headers */,
+				52655C3D60533ECCBE60BF92974E7632 /* Sources */,
+				AE279CB167659309FA4EF51518805B80 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4D799E9DADFB557951F4D5BED4B188 /* PBXTargetDependency */,
+				87282B9D04FF17F144C99813BEB905DB /* PBXTargetDependency */,
+			);
+			name = "Pods-StackBacktraceDemo";
+			productName = "Pods-StackBacktraceDemo";
+			productReference = 801367CCDB48D2D099F78E8AFF3217BB /* libPods-StackBacktraceDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AC234AE73A5D2E00C786B807F70263BA /* MTAppenderFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D175E29708F274F64117BFED1B043188 /* Build configuration list for PBXNativeTarget "MTAppenderFile" */;
+			buildPhases = (
+				C4950862FC6B957AB1618C6652DC2036 /* Headers */,
+				1A2631525E5B0FE65C15C1755B3D1E9E /* Sources */,
+				B05B260E79D3BDCCD84093645BD6E230 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTAppenderFile;
+			productName = MTAppenderFile;
+			productReference = 86132087A246E5729A3080C4027B376E /* libMTAppenderFile.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CBB8F3671C58EA9D6DB701EF5EE2AFB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC234AE73A5D2E00C786B807F70263BA /* MTAppenderFile */,
+				1C95360A846116F890CA4CFDE43D9BB3 /* MTHawkeye */,
+				6825B31AE4D07B5DF9366B751577C5F7 /* Pods-StackBacktraceDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A2631525E5B0FE65C15C1755B3D1E9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36327E5CB0D2AAAD1DFCA613347899E6 /* __mtaf_assert.c in Sources */,
+				5E8D962A3123BBFF502AC3BFCFA0331C /* mtaf_appender.cpp in Sources */,
+				E8636CCEB8B357EBE02EB177A9714F26 /* mtaf_autobuffer.cc in Sources */,
+				B29A9B8C4EB75089C9D44B711BB664DD /* mtaf_formatter.cpp in Sources */,
+				D271E939B2F734EE659FC05CA4CD9022 /* mtaf_log_buffer.cpp in Sources */,
+				054FE3C378303E50A2D127C8B8B607FA /* mtaf_mmap_file.cpp in Sources */,
+				46C5B4D1C1EB683DE824593F3E0EBCE0 /* mtaf_platform_comm.mm in Sources */,
+				361633B2E19AE287D73A92AA405DE80E /* mtaf_ptrbuffer.cc in Sources */,
+				804ACFFBF747EE032103C563D51FA252 /* mtaf_time_utils.c in Sources */,
+				AA158DEC6780EA79D2C246C404E4E5AC /* MTAppenderFile-dummy.m in Sources */,
+				A759C1F8ED595C6A445EA0AFA5CB9619 /* MTAppenderFile.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52655C3D60533ECCBE60BF92974E7632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1E513B3A4A65F2C7E1F5ADA6FE4474 /* Pods-StackBacktraceDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2345D7CD2422E1293B3D14BDFF76725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C40BC4EE12F588F197A7D1A10730E5 /* MTH_RSSwizzle.m in Sources */,
+				93AA2E7E66425F423E705F136EF5FE5B /* mth_stack_backtrace.mm in Sources */,
+				70BAE5880E1E4E472B3A52F89F4D47C7 /* mth_thread_utils.mm in Sources */,
+				5828FD369BDFCDBD88C7DAC92DC2FAD1 /* MTHawkeye-dummy.m in Sources */,
+				9597FBD0402CF024EA311C9BA5CF2A29 /* MTHawkeyeDyldImagesUtils.mm in Sources */,
+				EB886FBB10BDEB7159FD2D2E2BDFF4EE /* MTHawkeyeHooking.m in Sources */,
+				F372BBF780026766809B93BC8E8FBDCE /* MTHawkeyeInnerLogger.m in Sources */,
+				C73177792B669E2BD986907285024FC2 /* MTHawkeyeLFUCache.cpp in Sources */,
+				38EC5672E003360EC1EF4530A68CB682 /* MTHawkeyePropertyBox.m in Sources */,
+				76DBF5972D75FE18C37ED907BDFD955A /* MTHawkeyeUtility.m in Sources */,
+				627131D0636474000EF1262A8B539CE2 /* MTHawkeyeWeakProxy.m in Sources */,
+				DBB585C436D45BDAEE1D264CAA9B2033 /* MTHStackFrameSymbolics.mm in Sources */,
+				4AFB4BDAC36341FE2CE649D0E1F49A3E /* MTHStackFrameSymbolicsRemote.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A4D799E9DADFB557951F4D5BED4B188 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTAppenderFile;
+			target = AC234AE73A5D2E00C786B807F70263BA /* MTAppenderFile */;
+			targetProxy = 022DC57032DFE6C4CE8A37F85A504192 /* PBXContainerItemProxy */;
+		};
+		87282B9D04FF17F144C99813BEB905DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTHawkeye;
+			target = 1C95360A846116F890CA4CFDE43D9BB3 /* MTHawkeye */;
+			targetProxy = BF804E0F3C5C52BB67273467718F534E /* PBXContainerItemProxy */;
+		};
+		C12C080C2542C0787C2B279B1ECA833C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTAppenderFile;
+			target = AC234AE73A5D2E00C786B807F70263BA /* MTAppenderFile */;
+			targetProxy = EE8F17A5232C2527DBAF6A55E39DF3E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00BEF22A7CF24D732BD4DD75965CA392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A6721F91CF5F233253F7467EFEC4B84 /* MTAppenderFile.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MTAppenderFile/MTAppenderFile-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MTAppenderFile;
+				PRODUCT_NAME = MTAppenderFile;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BDF8E290092C3D0B4233845FDC23983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8AB1C0FF79DBDAC5D2D893711C0C31 /* MTHawkeye.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MTHawkeye/MTHawkeye-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MTHawkeye;
+				PRODUCT_NAME = MTHawkeye;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4298A14868D72220290B4C88CCA0B479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A6721F91CF5F233253F7467EFEC4B84 /* MTAppenderFile.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MTAppenderFile/MTAppenderFile-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MTAppenderFile;
+				PRODUCT_NAME = MTAppenderFile;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57EEECCB1B0AF75F720F574394F4EE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CD1F1562329D326230786E0E8789A4B /* Pods-StackBacktraceDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6694838FD843A0EBB7C0239FC58A39FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A70DE03985927FF81CFE6187884313 /* Pods-StackBacktraceDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E2E3DE2C447EDF0F553A4493FE3B3477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8AB1C0FF79DBDAC5D2D893711C0C31 /* MTHawkeye.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MTHawkeye/MTHawkeye-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MTHawkeye;
+				PRODUCT_NAME = MTHawkeye;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3672FCB86806A578EA01C98A0FF34F0E /* Build configuration list for PBXNativeTarget "Pods-StackBacktraceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6694838FD843A0EBB7C0239FC58A39FB /* Debug */,
+				57EEECCB1B0AF75F720F574394F4EE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9167B3F0F92A3522BE17E895A6FD0946 /* Build configuration list for PBXNativeTarget "MTHawkeye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2E3DE2C447EDF0F553A4493FE3B3477 /* Debug */,
+				0BDF8E290092C3D0B4233845FDC23983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D175E29708F274F64117BFED1B043188 /* Build configuration list for PBXNativeTarget "MTAppenderFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4298A14868D72220290B4C88CCA0B479 /* Debug */,
+				00BEF22A7CF24D732BD4DD75965CA392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,25 @@
+PODS:
+  - MTAppenderFile (0.4.3)
+  - MTHawkeye/StackBacktrace (0.12.1):
+    - MTHawkeye/Utils
+  - MTHawkeye/Utils (0.12.1):
+    - MTAppenderFile
+    - MTHawkeye/Utils/cpp (= 0.12.1)
+  - MTHawkeye/Utils/cpp (0.12.1):
+    - MTAppenderFile
+
+DEPENDENCIES:
+  - MTHawkeye/StackBacktrace
+
+SPEC REPOS:
+  trunk:
+    - MTAppenderFile
+    - MTHawkeye
+
+SPEC CHECKSUMS:
+  MTAppenderFile: c7db8f33a8140ee2275a6200305fd11e609fae33
+  MTHawkeye: 8dee0d747bf7921709150f0bc63e42c7daed04a5
+
+PODFILE CHECKSUM: 035efcc5e4d698db91f194bce66ae9859fc01e42
+
+COCOAPODS: 1.8.3
